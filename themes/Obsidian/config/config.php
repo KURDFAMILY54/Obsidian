@@ -1,6 +1,6 @@
 <?php
 if(!isset($_SESSION)){
-		session_name("opengamepanel_web");
+		session_name("KRCFAMILY_web");
 		session_start();
 	}
 if ($_POST && ($_SESSION['users_group'] == 'admin')) {  
